@@ -1,0 +1,3 @@
+[submodule "roles/ansible-role-mesos-by-mesosphere"]
+	path = roles/ansible-role-mesos-by-mesosphere
+	url = git@github.com:VirtualClusters/ansible-role-mesos-by-mesosphere.git

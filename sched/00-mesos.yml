@@ -1,0 +1,20 @@
+---
+
+- name: mesos base
+  hosts: all
+  become: yes
+  roles:
+    - { role: ansible-role-mesos-by-mesosphere, master_or_slave: "no", zk_masters: "", update_hosts: "yes" }
+  
+- name: mesos masters
+  hosts: masters
+  become: yes
+  roles:
+    - { role: ansible-role-mesos-by-mesosphere, master_or_slave: "master", myid: 1, update_hosts: "no" }
+
+
+- name: mesos slaves
+  hosts: slaves
+  become: yes
+  roles:
+    - { role: ansible-role-mesos-by-mesosphere, master_or_slave: "slave", update_hosts: "no" }

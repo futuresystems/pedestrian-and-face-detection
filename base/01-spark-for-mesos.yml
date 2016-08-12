@@ -1,7 +1,1 @@
----
-
-- name: spark for mesos
-  hosts: all
-  become: yes
-  roles:
-    - ansible-role-spark-for-mesos
+../proc/01-spark-for-mesos.yml

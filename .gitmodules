@@ -7,3 +7,6 @@
 [submodule "roles/ansible-role-spark-for-mesos"]
 	path = roles/ansible-role-spark-for-mesos
 	url = git@github.com:VirtualClusters/ansible-role-spark-for-mesos.git
+[submodule "roles/ansible-role-analytics"]
+	path = roles/ansible-role-analytics
+	url = https://github.com/futuresystems/ansible-role-analytics.git

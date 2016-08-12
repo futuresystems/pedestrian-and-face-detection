@@ -3,3 +3,5 @@
 - include: base/00-mesos.yml
 - include: base/01-spark-for-mesos.yml
 - include: base/02-opencv.yml
+- include: base/03-inria-dataset.yml
+- include: base/04-human-face-detection.yml

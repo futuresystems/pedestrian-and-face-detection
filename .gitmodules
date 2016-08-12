@@ -9,7 +9,7 @@
 	url = git@github.com:VirtualClusters/ansible-role-spark-for-mesos.git
 [submodule "roles/ansible-role-analytics"]
 	path = roles/ansible-role-analytics
-	url = https://github.com/futuresystems/ansible-role-analytics.git
+	url = git@github.com:futuresystems/ansible-role-analytics.git
 [submodule "roles/ansible-role-dataset"]
 	path = roles/ansible-role-dataset
 	url = git@github.com:futuresystems/ansible-role-dataset.git

@@ -10,3 +10,7 @@
 [submodule "roles/ansible-role-dataset"]
 	path = roles/ansible-role-dataset
 	url = git@github.com:futuresystems/ansible-role-dataset.git
+[submodule "roles/ansible-role-opencv"]
+	path = roles/ansible-role-opencv
+	url = https://github.com/futuresystems/ansible-role-opencv
+	branch = master

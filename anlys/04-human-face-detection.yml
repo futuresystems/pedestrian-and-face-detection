@@ -2,4 +2,5 @@
 
 - name: Human and Face Detection
   hosts: slaves
-  roles: { role: ansible-role-analytics, analytics: "human_and_face_detection" }
+  roles:
+    - { role: ansible-role-analytics, analytics: "human_and_face_detection" }

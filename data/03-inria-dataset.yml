@@ -2,4 +2,5 @@
 
 - name: INRIA Person Dataset (for Human Detection)
   hosts: slaves
-  roles: { role: ansible-role-dataset, dataset: "inria_person_dataset" }
+  roles:
+    - { role: ansible-role-dataset, dataset: "inria_person_dataset" }
